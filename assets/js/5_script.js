@@ -15,3 +15,19 @@ document.addEventListener('keydown',function (event) {
     }
     
 })
+
+
+
+
+
+
+document.addEventListener('keydown', function(event) {
+    if (event.key === "q") {
+        let newdiv = document.createElement('div');
+        const body = document.querySelector("body"); 
+        body.appendChild(newdiv); 
+        newdiv.style.width = "200px";
+        newdiv.style.height = "200px";
+        newdiv.style.backgroundColor = "purple";
+    }
+});
