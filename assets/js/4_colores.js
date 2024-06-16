@@ -8,7 +8,7 @@ const cambiarColor = (elemento) => {
 }
 
 // Iterar sobre todos los elementos div y agregar un event listener a cada uno
-elementos.forEach((div) => {
+ elementos.forEach((div) => {
   div.addEventListener("click", () => {
     cambiarColor(div); // Llamar a la función cambiarColor para cambiar el color de fondo
   });
